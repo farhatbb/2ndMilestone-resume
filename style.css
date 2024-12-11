@@ -1,0 +1,63 @@
+body{
+    background-image:url(https://images.pexels.com/photos/7248857/pexels-photo-7248857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:aquamarine;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background:rgba(203,185, 185,0.5);
+    border-width: 5px 5px 5px 5px;
+    border-color: green;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+
+
+}
+fieldset{
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color:#2c3e50;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #202c38;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(250, 255,243);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 90px;
+    height: 70px;
+
+    padding: 10px;
+    background: green;
+    color:white;
+    border: 3px solid blanchedalmond;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color: greenyellow;
+}
